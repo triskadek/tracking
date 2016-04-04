@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracking Demo</title>
+    <script src="libs/tracking-min.js"></script>
+    <script src="libs/data/face.js"></script>
+    <script src="libs/data/eye.js"></script>
+    <script src="libs/data/mouth.js"></script>
+    <style>
+        .rect {
+            border: 2px solid yellowgreen;
+            left: -1000px;
+            position: absolute;
+            top: -1000px;
+        }
+        #colors > span {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tracking</h1>
+    <div id="container"></div>
+    <div id="colors"></div>
+    <script src="libs/vibrant/dist/Vibrant.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
